@@ -1,0 +1,195 @@
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.layout {
+  display: grid;
+  height: 100vh;
+  grid-gap: 6px;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-areas:
+    "corner1 top1 top2 top3 top4 top5 top6 corner2"
+    "side1 mid mid mid mid mid mid side2"
+    "side3 mid mid mid mid mid mid side4"
+    "side5 mid mid mid mid mid mid side6"
+    "side7 mid mid mid mid mid mid side8"
+    "side9 mid mid mid mid mid mid side10"
+    "side11 mid mid mid mid mid mid side12"
+    "corner3 bot1 bot2 bot3 bot4 bot5 bot6 corner4";
+}
+
+.corner1 {
+  grid-area: corner1;
+  border: 3px solid;
+  border-color: black;
+  background-color: gray;
+}
+.top1 {
+  grid-area: top1;
+  border: 3px solid;
+  border-color: black;
+  background-color: lightblue;
+}
+.top2 {
+  grid-area: top2;
+  border: 3px solid;
+  border-color: black;
+  background-color: rgb(118, 174, 238);
+}
+.top3 {
+  grid-area: top3;
+  border: 3px solid;
+  border-color: black;
+  background-color: rgb(77, 127, 201);
+}
+.top4 {
+  grid-area: top4;
+  border: 3px solid;
+  border-color: black;
+  background-color: turquoise;
+}
+.top5 {
+  grid-area: top5;
+  border: 3px solid;
+  border-color: black;
+  background-color: rgb(97, 187, 134);
+}
+.top6 {
+  grid-area: top6;
+  border: 3px solid;
+  border-color: black;
+  background-color: rgb(20, 155, 20);
+}
+.corner2 {
+  grid-area: corner2;
+  border: 3px solid;
+  border-color: black;
+  background-color: grey;
+}
+.side1 {
+  grid-area: side1;
+  border: 3px solid;
+  border-color: black;
+  background-color: rgb(206, 43, 43);
+}
+.mid {
+  grid-area: mid;
+  border: 3px solid;
+  border-color: black;
+}
+.side2 {
+  grid-area: side2;
+  border: 3px solid;
+  border-color: black;
+  background-color: rgb(216, 216, 27);
+}
+.side3 {
+  grid-area: side3;
+  border: 3px solid;
+  border-color: black;
+  background-color: rgb(206, 95, 95);
+}
+.side4 {
+  grid-area: side4;
+  border: 3px solid;
+  border-color: black;
+  background-color: rgb(218, 184, 34);
+}
+.side5 {
+  grid-area: side5;
+  border: 3px solid;
+  border-color: black;
+  background-color: rgb(228, 118, 28);
+}
+.side6 {
+  grid-area: side6;
+  border: 3px solid;
+  border-color: black;
+  background-color: rgb(202, 157, 31);
+}
+.side7 {
+  grid-area: side7;
+  border: 3px solid;
+  border-color: black;
+  background-color: rgb(202, 157, 31);
+}
+.side8 {
+  grid-area: side8;
+  border: 3px solid;
+  border-color: black;
+  background-color: rgb(228, 118, 28);
+}
+.side9 {
+  grid-area: side9;
+  border: 3px solid;
+  border-color: black;
+  background-color: rgb(218, 184, 34);
+}
+.side10 {
+  grid-area: side10;
+  border: 3px solid;
+  border-color: black;
+  background-color: rgb(206, 95, 95);
+}
+.side11 {
+  grid-area: side11;
+  border: 3px solid;
+  border-color: black;
+  background-color: rgb(216, 216, 27);
+}
+.side12 {
+  grid-area: side12;
+  border: 3px solid;
+  border-color: black;
+  background-color: rgb(206, 43, 43);
+}
+.corner3 {
+  grid-area: corner3;
+  border: 3px solid;
+  border-color: black;
+  background-color: gray;
+}
+.bot1 {
+  grid-area: bot1;
+  border: 3px solid;
+  border-color: black;
+  background-color: rgb(20, 155, 20);
+}
+.bot2 {
+  grid-area: bot2;
+  border: 3px solid;
+  border-color: black;
+  background-color: rgb(97, 187, 134);
+}
+.bot3 {
+  grid-area: bot3;
+  border: 3px solid;
+  border-color: black;
+  background-color: turquoise;
+}
+.bot4 {
+  grid-area: bot4;
+  border: 3px solid;
+  border-color: black;
+  background-color: rgb(77, 127, 201);
+}
+.bot5 {
+  grid-area: bot5;
+  border: 3px solid;
+  border-color: black;
+  background-color: rgb(118, 174, 238);
+}
+.bot6 {
+  grid-area: bot6;
+  border: 3px solid;
+  border-color: black;
+  background-color: lightblue;
+}
+.corner4 {
+  grid-area: corner4;
+  border: 3px solid;
+  border-color: black;
+  background-color: gray;
+}

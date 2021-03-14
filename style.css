@@ -78,6 +78,8 @@ body {
   grid-area: mid;
   border: 3px solid;
   border-color: black;
+  text-align: center;
+  margin: auto;
 }
 .side2 {
   grid-area: side2;

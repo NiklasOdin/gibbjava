@@ -20,6 +20,12 @@ body {
     "corner3 bot1 bot2 bot3 bot4 bot5 bot6 corner4";
 }
 
+.person {
+  padding: 10px;
+  text-align: center;
+  vertical-align: center;
+}
+
 .corner1 {
   grid-area: corner1;
   border: 3px solid;
